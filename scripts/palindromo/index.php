@@ -5,10 +5,12 @@ function seculoAno(string $palavra)
   $palavra = str_split(strtolower($palavra));
   if($palavra === array_reverse($palavra))
   {
-    echo "true\n";
+    $palavra = implode('', $palavra);
+    echo "String '$palavra' = true\n";
     return;
   }
-  echo "false\n";
+  $palavra = implode('', $palavra);
+  echo "String '$palavra' = false\n";
 }
 
 seculoAno($argv[1]);
