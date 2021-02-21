@@ -8,10 +8,10 @@ function seculoAno($ano)
 
   if($array_ano[2] > 0 || $array_ano[3] > 0) 
   {
-    echo sprintf( "Seculo: %d \n", ($seculo + 1));
+    echo sprintf("Ano %d = século %d \n", $ano, ($seculo + 1));
     return;
   }
-  echo sprintf( "Seculo: %d \n", $seculo);
+  echo sprintf("Ano %d = século %d \n", $ano, $seculo);
 }
 
 seculoAno($argv[1]);
