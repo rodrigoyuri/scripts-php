@@ -3,7 +3,6 @@
 function seculoAno($ano)
 {
   $seculo = 1;
-  $ano = substr($ano, -4);
   $array_ano  = array_map('intval', str_split($ano));
   $seculo = (int)sprintf( "%d%d", $array_ano[0], $array_ano[1]);
 
