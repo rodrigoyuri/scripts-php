@@ -88,7 +88,7 @@ cd calcula-area
 # Execute o comando para testar o script
 php index.php 3
 
-# Resultado esperado 12
+# Resultado esperado 13
 ```
 
 Pronto dessa forma o script foi executado.
